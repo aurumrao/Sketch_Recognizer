@@ -1,0 +1,40 @@
+body{
+    background-color: khaki;
+}
+#show_sketch{
+    color:oldlace;
+    background-color:peru;
+    border: 5px burlywood ridge;
+    border-radius: 5px;
+    float: right;
+    margin: 10px;
+}
+h1{
+    background-color: goldenrod;
+    border: 5px darkgoldenrod dashed;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: fantasy;
+    text-shadow: 1px 9px 38px white;
+    color: #444444;
+}
+p{
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+canvas{
+    margin-top: 30px;
+    border: 5px darkkhaki ridge;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px palegoldenrod;}
+    to {box-shadow: 1px 1px 38px darkgoldenrod;}
+}
+h6{
+    margin-top: 37%;
+}
